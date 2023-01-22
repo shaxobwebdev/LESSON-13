@@ -1,0 +1,547 @@
+@import url("https://fonts.googleapis.com/css2?family=Orbitron&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  max-width: 1440px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+  background-color: transparent;
+}
+
+#dark-light {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+#dark-light img {
+  width: 30px;
+  height: 30px;
+}
+
+.dark {
+  background-color: yellow;
+}
+
+.dark * {
+  color: white !important;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 60px;
+  list-style: none;
+}
+li {
+  font-family: "Orbitron";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+}
+.btn-div {
+  display: flex;
+  gap: 30px;
+}
+.btn1 {
+  border: none;
+  background-color: transparent;
+}
+
+.btn2 {
+  padding: 16px 31px;
+  border: 1px solid #fff;
+  color: #fff;
+  background-color: transparent;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.hero-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hero1 {
+  padding-top: 100px;
+  background-color: #000;
+  width: 720px;
+  height: 900px;
+}
+.hero-nav {
+  background-color: transparent;
+  display: flex;
+  margin-left: 61px;
+  gap: 182px;
+  position: absolute;
+  top: 20px;
+}
+.hero-nav nav ul {
+  color: #fff;
+}
+.hero1 span {
+  color: #fff;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  margin-left: 60px;
+  font-family: "Orbitron";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  text-transform: uppercase;
+  color: #57b8ff;
+  margin-top: 120px;
+  margin-bottom: 40px;
+}
+.hero-title {
+  color: #57b8ff;
+}
+.hero1 h1 {
+  color: #fff;
+  font-family: "Orbitron";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 72px;
+  line-height: 86px;
+  margin-left: 60px;
+  background-image: url(../images/line.png);
+  background-repeat: no-repeat;
+  background-position: right 160px;
+}
+
+.hero-title2 {
+  color: #999999;
+  width: 615px;
+  margin-left: 72px;
+  margin-top: 45px;
+  margin-bottom: 53px;
+  font-family: "Orbitron";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+}
+
+.hero-btn1 {
+  padding: 21px 34px;
+  color: #fff;
+  background-color: transparent;
+}
+.hero-btn1:hover {
+  background-color: #57b8ff;
+  transition: all 0.5s ease-in-out;
+}
+.hero-btn2 {
+  padding: 21px 34px;
+  color: #fff;
+  background-color: transparent;
+}
+.hero-btn2:hover {
+  background-color: #57b8ff;
+  transition: all 0.5s ease-in-out;
+}
+
+.hero-btn__div {
+  margin-left: 60px;
+}
+.hero2 {
+  padding-top: 100px;
+  background-color: #57b8ff;
+  width: 720px;
+  height: 900px;
+  background-image: url(../images/game.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.hero-nav2 {
+  display: flex;
+  gap: 320px;
+  padding: 0 60px 0 30px;
+  position: absolute;
+  top: 20px;
+}
+.hero-nav2 ul {
+  color: #fff;
+}
+
+.section-container {
+  background-color: #fdd04a;
+  height: 542px;
+  padding-top: 128px;
+}
+
+h3 {
+  font-family: "Orbitron";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 58px;
+  text-align: center;
+  text-transform: capitalize;
+  color: #222730;
+}
+
+.section-container p {
+  text-align: center;
+  margin: 49px 0;
+  color: #555555;
+  font-family: "Orbitron";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.file-1 {
+  display: flex;
+  margin: 0 auto;
+  gap: 32px;
+  padding-left: 60px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.title-container {
+  background-image: url(../images/titlebgimg.png);
+  background-repeat: no-repeat;
+}
+
+.title-span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 136px;
+  color: #57b8ff;
+  font-family: "Orbitron";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+}
+
+.run-2 h2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 22px;
+  text-align: center;
+  /* width: 400px; */
+  font-family: "Orbitron";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 74px;
+}
+
+.run-2 p {
+  font-family: "Orbitron";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  text-align: center;
+  margin-top: 39px;
+  color: rgba(223, 223, 223, 0.8);
+}
+
+.cards span {
+  display: flex;
+  font-family: "Orbitron";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 42px;
+  text-transform: capitalize;
+  color: #ffffff;
+}
+
+.run p {
+  display: flex;
+  font-family: "Orbitron";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  color: rgba(223, 223, 223, 0.8);
+}
+
+.terminal {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-left: 60px;
+  padding-right: 60px;
+}
+
+.cards-div-1 {
+  padding-top: 30px;
+  padding-left: 35px;
+  margin-top: 30px;
+  width: 642px;
+  height: 212px;
+  gap: 30px;
+  background: rgba(255, 255, 255, 0.15);
+  border-radius: 20px;
+}
+
+.cards-div-2 {
+  padding-top: 30px;
+  padding-left: 35px;
+  margin-top: 30px;
+  width: 642px;
+  height: 212px;
+  gap: 30px;
+  background: rgba(255, 255, 255, 0.15);
+  border-radius: 20px;
+}
+
+span {
+  padding-right: 20px;
+  padding-left: 30px;
+}
+
+span img {
+  padding-right: 35px;
+}
+
+.cards-div-3 {
+  padding-top: 30px;
+  padding-left: 35px;
+  margin-top: 30px;
+  width: 642px;
+  height: 212px;
+  gap: 30px;
+  background: rgba(255, 255, 255, 0.15);
+  border-radius: 20px;
+}
+
+.cards-div-4 {
+  padding-top: 30px;
+  padding-left: 35px;
+  margin-top: 30px;
+  width: 642px;
+  height: 212px;
+  gap: 30px;
+  background: rgba(255, 255, 255, 0.15);
+  border-radius: 20px;
+}
+
+.felex {
+  display: flex;
+  flex-direction: column;
+  background-color: #000;
+}
+
+.legend {
+  padding-left: 60px;
+}
+
+.frem {
+  padding-top: 120px;
+}
+
+.img-3 {
+  padding-left: 800px;
+  margin-top: -500px;
+}
+
+.hit {
+  font-family: "Orbitron";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 74px;
+  text-transform: capitalize;
+  color: #ffffff;
+}
+
+.master p {
+  padding-top: 40px;
+  font-family: "Orbitron";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  color: rgba(223, 223, 223, 0.8);
+}
+
+.btn-7 {
+  padding-top: 100px;
+}
+
+.btn-0 {
+  padding: 21px 34px;
+  color: #fff;
+  background-color: transparent;
+}
+.btn-0:hover {
+  background-color: #57b8ff;
+  transition: all 0.5s ease-in-out;
+}
+
+.mira {
+  display: flex;
+}
+
+.web {
+  background-color: #222730;
+}
+
+.felx {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card-12 img {
+  padding-top: 30px;
+  padding-left: 50px;
+}
+
+.card-12 p {
+  padding-left: 50px;
+  padding-top: 22px;
+  font-family: "Orbitron";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 74px;
+  text-transform: capitalize;
+  color: #ffffff;
+}
+
+.bildim img {
+  margin-top: -200px;
+  padding-top: 68px;
+  padding-left: 50px;
+}
+
+.btn-fer {
+  padding: 200px 60px;
+}
+
+.btn-fer-9 {
+  padding: 21px 34px;
+  color: #fff;
+  background-color: transparent;
+}
+.btn-fer-9:hover {
+  background-color: #57b8ff;
+  transition: all 0.5s ease-in-out;
+}
+
+.bildim div {
+  padding-left: 50px;
+  padding-top: 50px;
+  font-family: "Orbitron";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 18px;
+  color: #57b8ff;
+}
+
+.rex p {
+  padding-left: 50px;
+  padding-top: 25px;
+  font-family: "Orbitron";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 46px;
+  text-transform: capitalize;
+  color: #ffffff;
+}
+
+.wrap-1 {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.wrap-1 {
+  padding-top: 30px;
+}
+
+.card-100 div {
+  padding: 10px;
+  font-family: "Orbitron";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  color: #57b8ff;
+}
+
+.navi {
+  font-family: "Orbitron";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 34px;
+  text-transform: capitalize;
+  color: #ffffff;
+}
+
+/* -------------- */
+
+.footer {
+  font-family: "Orbitron";
+  font-style: normal;
+  font-size: 72px;
+  text-align: center;
+  color: #141820;
+  padding-top: 126px;
+}
+
+.nulla {
+  font-family: "Orbitron";
+  font-style: normal;
+  margin-top: 51px;
+  margin-bottom: 50px;
+  text-align: center;
+  color: #141820;
+}
+.input {
+  text-align: center;
+  padding-bottom: 135px;
+}
+
+.btn-101 {
+  padding: 21px 8px;
+  background: #57b8ff;
+  border: 2px solid #57b8ff;
+  margin-left: -4px;
+  transition: 0 5s;
+}
+
+.input input {
+  padding: 21px 220px 20px 13px;
+}
+
+.flep {
+  background-image: url(../images/sariq.png);
+  background-repeat: no-repeat;
+}
